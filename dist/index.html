@@ -3,9 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ESLint-Webpack</title>
+    <title>Mobile Menus</title>
   <script defer src="main.js"></script></head>
   <body>
-    <h1>ESLint-Webpack</h1>
+    <div class="menus-btn-container">
+      <button class="menus-btn">
+        <svg
+          width="34"
+          height="34"
+          viewBox="0 0 34 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 2H32M2 17H32M2 32H32"
+            stroke="white"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+      <button class="close-menus-btn">
+        <svg
+          width="34"
+          height="34"
+          viewBox="0 0 34 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M2 2L32 30.5M32 2L2 32" stroke="white" stroke-width="3" stroke-linecap="round" />
+        </svg>
+      </button>
+    </div>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Account</li>
+        <li>Setting</li>
+        <li>Logout</li>
+      </ul>
+    </nav>
   </body>
 </html>
